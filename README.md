@@ -35,7 +35,7 @@ The various augmentations we have done are [Augmentation]('https://github.com/pr
 5. Cutout: Applies random cutout augmentation by removing rectangular regions of the image.
 6. ToTensorV2: Converts the image to a PyTorch tensor.
 
-### utils
+### Utils
 
 #### [Helper Class]('https://github.com/prarthanats/Assignment_10_Resnet_Utils/blob/main/utils/helper.py')
 It contains some of the miscellaneous functions to:
