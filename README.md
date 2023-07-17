@@ -27,13 +27,13 @@ Includes the configurations for augmentations, training and learning rates.
 ### [data_loader](https://github.com/prarthanats/Assignment_10_Resnet_Utils/tree/main/dataload)
 
 Data Loader function downloads,calculate dataset statistics and transform the data and performs data augmentation using albumentations to create test and train loaders 
-The various augmentations we have done are [Augmentation]('https://github.com/prarthanats/Assignment_10_Resnet_Utils/blob/main/dataload/data_augmentation.py')
-1. Normalize: Normalizes the image by subtracting the mean and dividing by the standard deviation.
-2. PadIfNeeded: Pads the image if its height or width is smaller than the specified minimum height or width.
-3. RandomCrop: Randomly crops the image to the specified height and width.
-4. HorizontalFlip: Flips the image horizontally.
-5. Cutout: Applies random cutout augmentation by removing rectangular regions of the image.
-6. ToTensorV2: Converts the image to a PyTorch tensor.
+    The various augmentations we have done are
+    1. Normalize: Normalizes the image by subtracting the mean and dividing by the standard deviation.
+    2. PadIfNeeded: Pads the image if its height or width is smaller than the specified minimum height or width.
+    3. RandomCrop: Randomly crops the image to the specified height and width.
+    4. HorizontalFlip: Flips the image horizontally.
+    5. Cutout: Applies random cutout augmentation by removing rectangular regions of the image.
+    6. ToTensorV2: Converts the image to a PyTorch tensor.
 
 ### Utils
 
