@@ -43,7 +43,7 @@ It contains some of the miscellaneous functions to:
 3. Reading the model summary
 
 #### [Learning Rate Finder](https://github.com/prarthanats/Assignment_10_Resnet_Utils/blob/main/utils/learning_rate_finder.py)
-Learning Rate Finder uses the torch_lr_finder library to identify the maximum and minumum learning rate for the training data
+Learning Rate Finder uses the torch_lr_finder library to identify the maximum learning rate for the training data
 
 #### [Visulatization](https://github.com/prarthanats/Assignment_10_Resnet_Utils/blob/main/utils/visulatization.py)
 It contains some of visulation functions for:
