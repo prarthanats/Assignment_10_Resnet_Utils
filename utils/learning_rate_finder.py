@@ -21,12 +21,12 @@ def learning_finder(model,train_loader):
     # Step 5: Plot learning rate range test
     _,lr_max = lr_finder.plot()
     # Step 6: Identify LRMIN and LRMAX based on the plot
-    lr_min = lr_max / 5
+    #lr_min = lr_max / 5
     
     # Print LRMIN and LRMAX
-    print("LRMIN:", lr_min)
+    #print("LRMIN:", lr_min)
     print("LRMAX:", lr_max)
     
     lr_finder.reset()
     
-    return lr_min,lr_max
+    return lr_max,criterion,optimizer
