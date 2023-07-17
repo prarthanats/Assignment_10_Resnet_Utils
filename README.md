@@ -20,3 +20,10 @@ Code to help with Data loading, Augmentation, Training of CIFAR10 Dataset
 
 ~~~
 
+### Config File
+Includes the configurations for augmentations, training and learning rates. Augmentation is done using albumentations library.
+
+### data_loader
+Train & Test
+Training and testing codes with options to input multiple optimizers, schedulers and loss criteria.
+
