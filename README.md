@@ -77,4 +77,13 @@ It contains some of visulation functions for:
 
 ## [Main File](https://github.com/prarthanats/torch_wrapper/blob/main/main.py)
 
-Main file includes the TriggerTraining Class that includes call to dataloader,s et_device, model_summary, learning_finder, run_experiment, wrong_predictions, plot_misclassified
+Main file includes the TriggerTraining Class that includes call
+~~~
+    1. Data loader
+    2. Set the device
+    3. Model Summary
+    4. Learning Rate finder
+    5. Run Training
+    6. Get wrong predictions
+    7. Plot the misclassified
+~~~
