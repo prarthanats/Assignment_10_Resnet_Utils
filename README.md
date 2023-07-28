@@ -7,16 +7,19 @@ Code to help with Data loading, Augmentation, Training of CIFAR10 Dataset
     Assignment_10_Resnet_Utils
     |──config
     |── ── assignment_10.yaml
-    |── data_loader
-    |── ── data_augmentation.py
-    |── ── data_loader.py
-    |── utils
-    |── ── helper.py
-    |──── learning_rate_finder.py
-    |── ── visulatization.py
+    |── ── assignment_11.yaml
     |── model
     |── ── custom_resnet.py
+    |── ── resnet.py
+    |── utils
+    |── ── data_augmentation.py
+    |── ── data_handeling.py
+    |── ── data_loader.py
+    |── ── gradcam.py
+    |── ── helper.py
     |── ── train_test.py
+    |── ── visulaization.py
+    |── main.py
     |── README.md
 
 ~~~
